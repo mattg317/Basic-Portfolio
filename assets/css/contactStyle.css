@@ -1,6 +1,6 @@
 body{
 	width: 960px;
-	margin-left:12%;
+	margin-left:10%;
 	height: 1500px;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	
@@ -49,33 +49,30 @@ article{
 	margin-top: 100px;
 }
 
-#about{
+#contact{
+	border:solid 1px black;
 	width: 400px;
-	margin-top: -230px;
+	margin-top: -220px;
 	margin-left:-150px;
 	background-color: #ffffff;
 }
 
-#imgMe{
-	float:left;
-	height:50%;
-	width:50%;
-	margin-top: 20px;
-}
 
-#firstP{
-	width:40%;
-	float:right;
-}
-
-#secondP{
-	clear:both;
-}
 
 #midLine{
 	padding:1px;
 	width:95%;
 	background-color: #777777;
+}
+
+.textInput{
+	width:80%;
+	border: solid 1px grey;
+}
+
+#message{
+	padding: 50px;
+	box-sizing: border-box;
 }
 
 #midLine2{
@@ -88,7 +85,7 @@ article{
 	width: 170px;
 	height:100px;
 	margin-left: 400px;
-	margin-top:-465px;
+	margin-top:-265px;
 	background-color: #ffffff;
 	text-align: center;
 }
