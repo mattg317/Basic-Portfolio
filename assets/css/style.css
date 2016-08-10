@@ -21,6 +21,7 @@ header{
 	padding: 20px;
 	float: right;
 	margin-top: -20px;
+	margin-right: 50px;
 }
 #name{
 	background-color:#4aaaa5;
@@ -28,7 +29,7 @@ header{
 	padding: 20px;
 	float: left;
 	margin-top: -18px;
-	margin-left: 50px;
+	margin-left: 60px;
 	margin-bottom:0px;
 }
 
@@ -87,8 +88,8 @@ article{
 #sidebar{
 	width: 170px;
 	height:100px;
-	margin-left: 400px;
-	margin-top:-465px;
+	margin-left: 350px;
+	margin-top:-455px;
 	background-color: #ffffff;
 	text-align: center;
 }
