@@ -1,88 +1,71 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<link rel="stylesheet" type="text/css" href="assets/css/portfolioStyle.css">
-			<title>Portfolio Page</title>
-		</head>
-
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio | Your Name</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 <body>
-	<header>
-		<h4 id="name">Matthew Giordanella</h4>
-		<div id="tabs">
-		
-		<a href="index.html">About</a> | 
-		<a href="portfolio.html">Portfolio</a> | 
-		<a href="contact.html">Contact</a>
 
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Your Name</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
 	</header>
 
-	<section>
-		<article id="portfolio">
-
+	<div id="main-container" class="container">
+		<section class="main-section">
 			<h1>Portfolio</h1>
-			<div id="midLine"></div>
 
-			<div id="hangman">
-				<div>
-				<h3 id="hang">Hangman</h3>
-				</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+				<h3>Hangman</h3>
 			</div>
-			
-			<div id="rpg">
-				<div>
-					<h3 id="role">RPG Game</h3>
-				</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+				<h3>RPG Game</h3>
 			</div>
-			
-			<div class="clear"></div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
-			<div id="trivia">
-				<div>
-					<h3 id="tgame">Trivia Game</h3>
-				</div>
+				<h3>Trivia Game</h3>
 			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
 
-			<div id="rutgers">
-				<div>
-					<h4 id="widget">Rutgers Info Widget</h4>
-				</div>
+				<h3>Rutgers Info Widget</h3>
 			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
 
-			<div class="clear"></div>
-
-			<div id="rps">
-				<div>
-					<h4 id="shoot">Rock Paper Scissors</h4>
-				</div>
-			</div>
-	
-
-			
-		</article>
-
-		<article id="sidebar">
-
-		<div id="shift">
-			<h1>Connect with Me</h1>
-			<div id="midLine2"></div>
-			
-			<div class="logos">
-			
-				<a href="https://github.com/mattg317"><img src="assets/images/gitHubLogo.png" alt="github icon" ></a>
-			
-				<a href="https://www.linkedin.com/in/mgiordanella"><img src="assets/images/linkedInLogo.png" alt="linkedIn icon"></a>
-			
-				<a href="http://stackoverflow.com/users/6670075/matt-g"><img src="assets/images/stackOverflowLogo.png" alt="stackOverflow icon"></a>
+				<h3>Rock Paper Scissors</h3>
 			</div>
 
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
 		</div>
-
-		</article>
-
-	</section>
-
-	<div id="footLine"></div>
-	<footer>© Copyright 2016 Matthew Giordanella</footer>
+	</footer>
 </body>
 </html>
